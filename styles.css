@@ -1,0 +1,418 @@
+@import url('https://wallpaperaccess.com/full/2471303.gif');
+/* 
+----- color palette ------
+- #2A2B2DFF black
+- #D9514EFF red
+- #2DA8D8FF blue
+
+black text in red
+blue text in black
+red text in blue
+
+#303544 light shade
+#232533 dark shade
+#feae28 yellow
+#e8e7eb white
+#91DDF2 pastel blue
+*/
+
+/* Universal selector for font */
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* Heading */
+header {
+  /* background-image: url(https://thumbs.gfycat.com/DearestCautiousGordonsetter-size_restricted.gif); */
+  background-size: 100%;
+  background-color: #303544;
+  padding: 50px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: #e8e7eb;
+}
+
+header blockquote, header p {
+  font-size: 25px;
+  text-align: center;
+  color: #e8e7eb;
+}
+
+header figure {
+  filter: grayscale(100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+/* Idk, need to change */
+body {
+  /* background-image: linear-gradient(#2DA8D8FF, #2A2B2DFF); */
+  background-color: #232533;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  /* float: right; */
+  font-style: italic;
+  background-color: lightgray;
+}
+
+/* Main content */
+main h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #e8e7eb;
+  /* border-top: 5px solid;
+  border-color: darkgray; */
+}
+
+main h3{
+  font-size: 20px;
+  color: #feae28;
+}
+
+
+
+
+/* for skills, have boxes for each 4x2 with backgrounds/icons */
+#skills h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+}
+
+#skills ol {
+  display: grid;
+  padding: 1em 1em 1em 1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "a b c d"
+  "e f g h";
+}
+
+#skills div {
+  padding: 1em;
+}
+
+.a {
+  background-color: #feae28;
+  grid-area: a;
+}
+
+.b {
+  background-color: #feae28;
+  grid-area: b;
+}
+
+.c {
+  background-color: #feae28;
+  grid-area: c;
+}
+
+.d {
+  background-color: #feae28;
+  grid-area: d;
+}
+
+.e {
+  background-color: #feae28;
+  grid-area: e;
+}
+
+.f {
+  background-color: #feae28;
+  grid-area: f;
+}
+
+.g {
+  background-color: #feae28;
+  grid-area: g;
+}
+
+.h {
+  background-color: #feae28;
+  grid-area: h;
+}
+
+#skills ol li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+
+
+
+/* About me */
+#aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 400px;
+  background-color: #303544;
+  color: #e8e7eb;
+  font-size: 25px;
+  padding: 200px;
+}
+
+#aboutMe h3 {
+  font-size: 75px;
+}
+
+
+
+
+/* Education */
+#education {
+  padding-bottom: 200px;
+}
+
+#education h3 {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+/* main list */
+#education ol, #education ul {
+  display: grid;
+  padding: 1em 1em 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas: 
+  "i j k"
+  "p l o"
+  "q m space"
+  "r n space";
+}
+
+.i {
+  background-color: #E6A595;
+  grid-area: i;
+  border-radius: 25px;
+}
+
+.j {
+  background-color: #91DDF2;
+  grid-area: j;
+  border-radius: 25px;
+}
+
+.k {
+  background-color: #feae28;
+  grid-area: k;
+  border-radius: 25px;
+}
+
+.l {
+  background-color: #91DDF2;
+  grid-area: l;
+  border-radius: 25px;
+}
+
+.m {
+  background-color: #91DDF2;
+  grid-area: m;
+  border-radius: 25px;
+}
+
+.n {
+  background-color: #91DDF2;
+  grid-area: n;
+  border-radius: 25px;
+}
+
+.o {
+  background-color: #feae28;
+  grid-area: o;
+  border-radius: 25px;
+}
+
+.p {
+  background-color: #E6A595;
+  grid-area: p;
+  border-radius: 25px;
+}
+
+.q {
+  background-color: #E6A595;
+  grid-area: q;
+  border-radius: 25px;
+}
+
+.r {
+  background-color: #E6A595;
+  grid-area: r;
+  border-radius: 25px;
+}
+
+.space{
+  background-color: #232533;
+  grid-area: space;
+}
+
+/* main list settings */
+#education ol li {
+  font-size: 30px;
+  min-height: 100px;
+  min-width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+/* sublist settings */
+#education ul li {
+  font-size: 20px;
+  min-height: 50px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+
+/* work experience */
+#workExperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #303544;
+  color: #e8e7eb;
+  font-size: 25px;
+  padding: 200px;
+  border-radius: 20px;
+}
+
+#workExperience h3 {
+  font-size: 75px;
+}
+
+#workExperience ol {
+  list-style: square;
+}
+
+
+
+
+/* hobbies and interests */
+#hobbiesAndInterests {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #232533;
+  color: #e8e7eb;
+  font-size: 25px;
+  padding: 200px;
+}
+
+#hobbiesAndInterests h3 {
+  font-size: 75px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#hobbiesAndInterests ul li {
+  font-size: 25px;
+}
+
+
+/* nav stuff */
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #feae28;
+  border: solid;
+  border-style: outset black;
+  border-width: .1em;
+  border-radius: 25px;
+}
+
+nav p {
+  font-family: arial;
+  color: #2A2B2DFF;
+  font-size: 24px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  font-family: arial;
+  color: #222;
+  font-size: 24px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #feae28;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 135px;
+  border-radius: 4px;
+  padding-top: 25px;
+  text-align: left;
+}
+
+nav ul li ul li a {
+  font-size: 1.2em;
+  padding: 8px 14px;
+  display: flex;
+}
+
+nav ul li ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navigation a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+
+
