@@ -29,6 +29,7 @@ header {
   /* background-image: url(https://thumbs.gfycat.com/DearestCautiousGordonsetter-size_restricted.gif); */
   background-size: 100%;
   background-color: #303544;
+  box-shadow: 5px 5px 20px black;
   padding: 50px;
   padding-top: 25px;
   padding-bottom: 0px;
@@ -171,6 +172,7 @@ main h3{
   color: #e8e7eb;
   font-size: 25px;
   padding: 200px;
+  box-shadow: 5px 5px 20px black;
 }
 
 #aboutMe h3 {
@@ -208,60 +210,70 @@ main h3{
   background-color: #E6A595;
   grid-area: i;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .j {
   background-color: #91DDF2;
   grid-area: j;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .k {
   background-color: #feae28;
   grid-area: k;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .l {
   background-color: #91DDF2;
   grid-area: l;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .m {
   background-color: #91DDF2;
   grid-area: m;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .n {
   background-color: #91DDF2;
   grid-area: n;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .o {
   background-color: #feae28;
   grid-area: o;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .p {
   background-color: #E6A595;
   grid-area: p;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .q {
   background-color: #E6A595;
   grid-area: q;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .r {
   background-color: #E6A595;
   grid-area: r;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .space{
@@ -306,6 +318,7 @@ main h3{
   font-size: 25px;
   padding: 200px;
   border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
 }
 
 #workExperience h3 {
@@ -321,7 +334,6 @@ main h3{
 
 /* hobbies and interests */
 #hobbiesAndInterests {
-  background-color: #232533;
   color: #e8e7eb;
   font-size: 25px;
   padding: 200px;
@@ -356,24 +368,28 @@ main h3{
   background-color: #303544;
   grid-area: s;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .t {
   background-color: #303544;
   grid-area: t;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .u {
   background-color: #303544;
   grid-area: u;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 .v {
   background-color: #303544;
   grid-area: v;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 /* flexbox inside of grid settings */
@@ -399,6 +415,7 @@ main h3{
   font-size: 25px;
   padding: 200px;
   border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
 }
 
 #onlinePresence p {
@@ -472,6 +489,7 @@ main h3{
   background-color: #303544;
   padding: 50px;
   border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
 }
 
 #contactInfo address ul li a:hover {
@@ -491,6 +509,7 @@ nav {
   border-style: outset black;
   border-width: .1em;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px black;
 }
 
 nav p {
